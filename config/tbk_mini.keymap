@@ -29,11 +29,11 @@
     };
 
     macros {
-        email_privat: email {
+        email_privat: email_privat {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&none &kp L &kp U &kp K &kp A &kp S &kp DOT &kp F &kp R &kp I &kp T &kp S &kp C &kp H &kp AT &kp P &kp R &kp O &kp T &kp O &kp N &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
-            label = "EMAIL";
+            label = "EMAIL_PRIVAT";
         };
 
         email_work: email_work {
