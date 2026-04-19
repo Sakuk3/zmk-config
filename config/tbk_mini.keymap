@@ -28,6 +28,22 @@
         };
     };
 
+    macros {
+        email_privat: email {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp L &kp U &kp K &kp A &kp S &kp DOT &kp F &kp R &kp I &kp T &kp S &kp C &kp H &kp AT &kp P &kp R &kp O &kp T &kp O &kp N &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "EMAIL";
+        };
+
+        email_work: email_work {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp L &kp U &kp K &kp A &kp S &kp DOT &kp F &kp R &kp I &kp T &kp S &kp C &kp H &kp AT &kp F &kp R &kp E &kp Q &kp U &kp E &kp N &kp T &kp I &kp S &kp DOT &kp C &kp O &kp M>;
+            label = "EMAIL_WORK";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -75,10 +91,10 @@
             //                    |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&trans      &trans        &trans           &trans                &trans        &trans    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&trans      &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP             &kp RIGHT       &trans           &trans
-&caps_word  &trans        &trans           &trans                &trans        &trans    &kp PLUS        &kp MINUS         &kp EQUAL          &trans          &kp PIPE         &kp BACKSLASH
-                                           &mo 3                 &trans        &trans    &trans          &trans            &trans
+&trans      &trans         &trans           &trans                &trans        &trans    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
+&trans      &kp C_VOL_DN   &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP             &kp RIGHT       &trans           &trans
+&caps_word  &email_privat  &email_work      &trans                &trans        &trans    &kp PLUS        &kp MINUS         &kp EQUAL          &trans          &kp PIPE         &kp BACKSLASH
+                                            &mo 3                 &trans        &trans    &trans          &trans            &trans
             >;
         };
 
