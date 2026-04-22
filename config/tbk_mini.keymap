@@ -77,7 +77,7 @@
 &kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp NUMBER_6  &kp N7    &kp N8    &kp N9    &kp N0    &kp GRAVE
 &kp DELETE  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT    &kp CARET     &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp EQUAL
 &kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6       &kp F7        &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-                                        &trans        &trans        &trans       &trans        &trans    &mo 3
+                                        &trans        &trans        &trans       &trans        &trans    &trans
             >;
         };
 
@@ -91,10 +91,10 @@
             //                    |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&trans      &trans         &trans           &trans                &trans        &trans    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
+&trans      &trans         &trans           &trans                &trans        &trans    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE
 &trans      &kp C_VOL_DN   &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP             &kp RIGHT       &trans           &trans
 &caps_word  &email_privat  &email_work      &trans                &trans        &trans    &kp PLUS        &kp MINUS         &kp EQUAL          &trans          &kp PIPE         &kp BACKSLASH
-                                            &mo 3                 &trans        &trans    &trans          &trans            &trans
+                                            &trans                &trans        &trans    &trans          &trans            &trans
             >;
         };
 
