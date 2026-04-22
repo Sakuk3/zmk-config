@@ -114,5 +114,14 @@
                                             &trans        &none         &trans          &trans        &none         &trans
             >;
         };
+
+        move_layer {
+            bindings = <
+&trans  &kp LS(LA(N1))  &kp LA(LS(N2))  &kp LS(LA(N3))  &kp LS(LA(N4))  &kp LS(LA(N5))    &kp LA(LS(N6))  &kp LS(LA(N7))  &kp LS(LA(N8))  &kp LS(LA(N9))  &kp LS(LA(N0))  &trans
+&trans  &kp LA(N1)      &kp LA(N2)      &kp LA(N3)      &kp LA(N4)      &kp LA(N5)        &kp LA(N6)      &kp LA(N7)      &kp LA(N8)      &kp LA(N9)      &kp LA(N0)      &trans
+&trans  &trans          &trans          &trans          &trans          &trans            &trans          &trans          &trans          &trans          &trans          &trans
+                                        &trans          &trans          &trans            &trans          &trans          &trans
+            >;
+        };
     };
 };
