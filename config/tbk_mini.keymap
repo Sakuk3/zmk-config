@@ -34,6 +34,7 @@
             #binding-cells = <0>;
             bindings = <&none &kp L &kp U &kp K &kp A &kp S &kp DOT &kp F &kp R &kp I &kp T &kp S &kp C &kp H &kp AT &kp P &kp R &kp O &kp T &kp O &kp N &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL_PRIVAT";
+            wait-ms = <10>;
         };
 
         email_work: email_work {
@@ -41,6 +42,7 @@
             #binding-cells = <0>;
             bindings = <&none &kp L &kp U &kp K &kp A &kp S &kp DOT &kp F &kp R &kp I &kp T &kp S &kp C &kp H &kp AT &kp F &kp R &kp E &kp Q &kp U &kp E &kp N &kp T &kp I &kp S &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL_WORK";
+            wait-ms = <10>;
         };
     };
 
