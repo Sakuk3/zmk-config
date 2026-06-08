@@ -93,10 +93,10 @@
             //                    |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&trans      &trans         &trans           &trans                &trans        &trans    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE
-&trans      &kp C_VOL_DN   &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP             &kp RIGHT       &trans           &trans
-&caps_word  &email_privat  &email_work      &trans                &trans        &trans    &kp PLUS        &kp MINUS         &kp EQUAL          &trans          &kp PIPE         &kp BACKSLASH
-                                            &trans                &trans        &trans    &trans          &trans            &trans
+&trans              &trans         &trans           &trans                &trans        &trans    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE
+&kp LC(RA(DELETE))  &kp C_VOL_DN   &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP             &kp RIGHT       &trans           &trans
+&caps_word          &email_privat  &email_work      &trans                &trans        &trans    &kp PLUS        &kp MINUS         &kp EQUAL          &trans          &kp PIPE         &kp BACKSLASH
+                                                    &trans                &trans        &trans    &trans          &trans            &trans
             >;
         };
 
